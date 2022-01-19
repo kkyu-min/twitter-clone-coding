@@ -1,0 +1,31 @@
+{
+  "name": "dwitter",
+  "version": "1.0.0",
+  "description": "twitter clone coding -simple version",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyumin-stack/twitter-clone-coding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyumin-stack/twitter-clone-coding/issues"
+  },
+  "homepage": "https://github.com/kyumin-stack/twitter-clone-coding#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
